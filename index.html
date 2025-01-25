@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>一起来表白吧</title>
-
-<link href="favicon.ico" rel="shortcut icon" class="icon-love" type="images/x-ico">
-
-<link rel="stylesheet" href="css/love.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱心动画</title>
+    <link href="favicon.ico" rel="icon" class="icon-love" type="image/x-icon">
+    <link rel="stylesheet" href="css/love.css">
 </head>
 <body>
+    <!-- 容器 -->
+    <div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+        <!-- 左侧图片 -->
+        <div class="body_left">
+            <img src="images/biubiubiu.gif" alt="手枪动画" draggable="false">
+        </div>
 
-<div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
-
-    <div class="body_left">
-        <img src="images/biubiubiu.gif" alt="" ondragstart='return false;'>
-    </div>
-
-    <div class="body_center love">
-        <div class="block">
-            <div class="div1"></div>
-            <div class="div2"></div>
-            <div class="div3"></div>
-            <div class="div4"></div>
+        <!-- 爱心动画 -->
+        <div class="body_center love">
+            <div class="block">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+                <div class="div4"></div>
+            </div>
         </div>
     </div>
 
-</div>
-
-<div class="footer">
-    <div class="border">
-        <div class="border-top"></div>
-        <div class="border-bottom"></div>
+    <!-- 页脚 -->
+    <div class="footer">
+        <div class="border"></div>
+        <div class="copyright">
+            <div id="author"><span>&copy;&nbsp;</span>PJ - 2025</div>
+        </div>
     </div>
 
-    <div class="copyright">
-        <div id="author"><span>&copy;&nbsp;</span>PJ</div>
-    </div>
-</div>
-
-<script type="text/javascript" src="js/love.js"></script>
-
+    <script src="js/love.js"></script>
 </body>
 </html>
